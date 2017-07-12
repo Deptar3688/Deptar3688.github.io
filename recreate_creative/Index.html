@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Index.html</title>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
     <style>
-
         * {
             padding: 0;
             margin: 0;
@@ -13,9 +13,8 @@
         
         body {
             font-family: sans-serif;
-
         }
-            
+        
         #navbar {
             height: 21px;
             background-image: url("img/header.jpg");
@@ -26,7 +25,7 @@
             border-bottom: solid 1px grey;
         }
         
-        #navbara ul {
+        #navbar ul {
             font-size: 12px;
         }
         
@@ -89,7 +88,197 @@
             width: 50px;
             border: none;
             height: 2px;
-            background-color: tomato;
+            background-color: #F27459;
+            margin-top: 10px;
+            margin-bottom: 15px
+        }
+        
+        #banner2 {
+            height: 250px;
+            text-align: center;
+            color: white;
+            padding-top: 80px;
+            background-color: #F05C40;
+        }
+        
+        .title2 {
+            font-size: 20px;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+        
+        .subtitle2 {
+            margin-top: 15px;
+            width: 80%;
+            margin: 15px auto;
+        }
+        
+        hr.white {
+            display: inline-block;
+            width: 50px;
+            border: none;
+            height: 2px;
+            background-color: white;
+        }
+        
+        button.white {
+            display: inline-block;
+            width: 120px;
+            height: 30px;
+            font-size: 10px;
+            background-color: white;
+            border: none;
+            color: black;
+            border-radius: 15px;
+            margin-top: 40px;
+        }
+        
+        #banner3 {
+            height: 400px;
+            text-align: center;
+            color: black;
+            padding-top: 80px;
+            background-color: white;
+        }
+        
+        .title3 {
+            font-size: 20px;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+        
+        .fa-diamond {
+            font-size: 80px;
+            left: 20px;
+            color: tomato;
+        }
+        
+        .fa-paper-plane {
+            font-size: 80px;
+            left: 20px;
+            color: tomato;
+        }
+        
+        .fa-newspaper-o {
+            font-size: 80px;
+            left: 20px;
+            color: tomato;
+        }
+        
+        .fa-heart {
+            font-size: 80px;
+            left: 20px;
+            color: tomato;
+        }
+        
+        .item {
+            display: inline-block;
+            border: none;
+            height: 200px;
+            float: left;
+            width: 24%;
+            font-size: auto;
+        }
+        
+        header.icons {
+            height: 300px;
+        }
+        
+        div.a {
+            float: left;
+            background-image: url(img/portfolio/1.jpg);
+            width: 33%;
+            height: 192px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        div.b {
+            float: left;
+            background-image: url(img/portfolio/2.jpg);
+            width: 33%;
+            height: 192px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        div.c {
+            float: left;
+            background-image: url(img/portfolio/3.jpg);
+            width: 33%;
+            height: 192px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        div.d {
+            float: left;
+            background-image: url(img/portfolio/4.jpg);
+            width: 33%;
+            height: 192px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        div.e {
+            float: left;
+            background-image: url(img/portfolio/5.jpg);
+            width: 33%;
+            height: 192px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        div.f {
+            float: left;
+            background-image: url(img/portfolio/6.jpg);
+            width: 33%;
+            height: 192px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        #download{
+            padding-top: 25px;
+            margin-top: 422px;
+            color: white;
+            height: 150px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.87);
+            font-size: 20px;
+            margin-bottom: 5px;
+            font-weight: 600;
+            clear: both;
+        }
+        
+        button.white2 {
+            display: inline-block;
+            width: 120px;
+            height: 30px;
+            font-size: 10px;
+            background-color: white;
+            border: none;
+            color: black;
+            border-radius: 15px;
+            margin-top: 40px;
+        }
+        
+        .icon{
+            display: inline-block;
+            margin: 10px 130px;
+        }
+        .fa-phone{
+            font-size: 30px;
+            left: 20px; 
+            color: black;
+        }
+         .fa-envelope-o{
+            font-size: 30px;
+            left: 20px;
+            color: black;
+        }
+        h6.tomato{
+            color: tomato;
         }
     </style>
 </head>
@@ -109,16 +298,93 @@
             </ul>
         </div>
         <div id="banner">
-            <header></header>
-            <div class="title">YOUR FAVOURITE SOURCE OF FREE BOOTSTRAP THEMES</div>
-            <hr>
-            <div class="subtitle">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor vitae reiciendis expedita voluptatum perspiciatis velit reprehenderit perferendis libero similique quae, laudantium quibusdam aut repudiandae ab facere et nihil beatae omnis.
-            </div>
-            <button>Find Out More</button>
+            <header>
+                <div class="title">YOUR FAVOURITE SOURCE OF FREE BOOTSTRAP THEMES</div>
+                <hr>
+                <div class="subtitle">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor vitae reiciendis expedita voluptatum perspiciatis velit reprehenderit perferendis libero similique quae, laudantium quibusdam aut repudiandae ab facere et nihil beatae omnis.
+                </div>
+                <button>FIND OUT MORE</button>
         </div>
+        </header>
+        <header>
+            <div id="banner2">
 
-    </header>
+                <div class="title2">We've got what you need!</div>
+                <hr class="white">
+                <div class="subtitle2">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, iusto laboriosam ducimus corporis earum hic esse adipisci blanditiis. Nam veritatis minima vero numquam vel? Nemo quia ipsa consequatur repudiandae tenetur.
+                </div>
+                <button class="white">GET STARTED!</button>
+            </div>
+        </header>
+        <header class="icons">
+            <div id="banner3">
+                <div class="title3">At Your Service
+                </div>
+                <hr>
+                <div>
+                    <div class="item"><i class="fa fa-diamond"></i>
+                        <h3>Sturdy Templates</h3>
+                        <p>Our templates are updated regularly so they don't break.</p>
+                    </div>
+                    <div class="item">
+                        <div><i class="fa fa-paper-plane"></i>
+                            <h3>Ready to Ship</h3>
+                            <p>You can use this theme as is, or you can make changes!</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div><i class="fa fa-newspaper-o"></i>
+                            <h3>Up to Date</h3>
+                            <p>We update dependencies to keep things fresh.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div><i class="fa fa-heart"></i></div>
+                        <h3>Made with Love</h3>
+                        <p>You have to make your websites with love these days!</p>
+
+                    </div>
+
+                </div>
+        </header>
+
+        <div class="a"></div>
+        <div class="b"></div>
+        <div class="c"></div>
+        <div class="d"></div>
+        <div class="e"></div>
+        <div class="f"></div>
+        
+         <div id="download">
+        <h2>Free Download at Start Bootstrap</h2>
+
+        <button class="white2">DOWNLOAD NOW!</button>
+            </div>
+        </div>
+        
+        <header>
+            <div id="banner3">
+
+                <div class="title2">Let's Get In Touch!</div>
+                <hr>
+                <div class="subtitle2">
+                    Ready to start your new project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!
+                </div>
+                
+                <div class="icon">
+                        <div><i class="fa fa-phone "></i></div>
+                        <h6>123-456-6789</h6>
+                    </div>
+        
+                    <div class="icon">
+                        <div><i class="fa fa-envelope-o "></i></div>
+                        <h6 class="tomato">feedback@startbootstrap.com</h6>
+
+                    </div>
+            </div>
+        </header>
 </body>
 
 </html>
