@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+    <style>
+        table {
+            border-color: white;
+        }
+        
+        #k {
+            margin-left: 2px;
+            border-collapse: collapse;
+            border-color: black;
+        }
+        
+        th {
+            text-align: left;
+        }
+        
+        td {
+            width: 150px;
+            height: 25px;
+        }
+        
+        #black {
+            background-color: black;
+            color: white;
+        }
+        
+        #white {
+            background-color: white;
+            border-color: black;
+        }
+        
+        #red {
+            background-color: red;
+        }
+        
+        #lime {
+            background-color: lime;
+        }
+        
+        #blue {
+            background-color: blue;
+        }
+        
+        #yellow {
+            background-color: yellow;
+        }
+        
+        #aqua {
+            background-color: aqua;
+        }
+        
+        #magenta {
+            background-color: magenta;
+        }
+        
+    </style>
+
+<body>
+    <table border=0>
+        <tr>
+            <th>HEX</th>
+            <th>RGB</th>
+            <th>NAME</th>
+            <th>HSL</th>
+        </tr>
+    
+        <tr id="black">
+            <td>#000000</td>
+            <td>rgb(0, 0, 0)</td>
+            <td>Black</td>
+            <td>hsl(0, 0%, 0%)</td>
+        </tr>
+        <table id="k" border=2>
+            <tr id="white">
+                <td>#ffffff</td>
+                <td>rgb(255, 255, 255)</td>
+                <td>White</td>
+                <td>hsl(0, 0%, 100%)</td>
+            </tr>
+        </table>
+        
+        <table>
+        <tr id="red">
+            <td>#ff0000</td>
+            <td>rgb(255, 0, 0)</td>
+            <td>Red</td>
+            <td>hsl(0, 100%, 50%)</td>
+        </tr>
+
+        <tr id="lime">
+            <td>#00ff00</td>
+            <td>rgb(0, 255, 0)</td>
+            <td>Lime</td>
+            <td>hsl(120, 100%, 50%)</td>
+        </tr>
+
+        <tr id="blue">
+            <td>#0000ff</td>
+            <td>rgb(0, 0, 255)</td>
+            <td>Blue</td>
+            <td>hsl(240, 100%, 50%)</td>
+        </tr>
+
+        <tr id="yellow">
+            <td>#ffff00</td>
+            <td>rgb(255, 255, 0)</td>
+            <td>Yellow</td>
+            <td>hsl(60, 100%, 50%)</td>
+        </tr>
+
+        <tr id="aqua">
+            <td>#00ffff</td>
+            <td>rgb(0, 255, 255)</td>
+            <td>Aqua</td>
+            <td>hsl(180, 100%, 50%)</td>
+        </tr>
+
+        <tr id="magenta">
+            <td>#ff00ff</td>
+            <td>rgb(255, 0, 255)</td>
+            <td>Magenta</td>
+            <td>hsl(300, 100%, 50%)</td>
+        </tr>
+        </table>
+    </table>
+</body>
+
+</html>

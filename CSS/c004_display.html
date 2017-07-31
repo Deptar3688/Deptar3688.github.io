@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    
+    <style>
+        div {
+            border: solid 1px red;   
+        }
+        
+        span {
+            border: solid 1px red;
+/*
+            width: 50px;
+            height: 50px;
+*/
+        }
+        
+        #inlineblock {
+            border: solid 1px red;
+            display: inline-block;
+        }
+        
+        #none {
+            border: solid;
+            display: none;
+        }
+        
+        #viz {
+            width: 50px;
+            height: 50px;
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Block (no height, has width)</h1>
+    <div></div>
+    
+    <h1>Inline (has height, no width)</h1>
+    <span></span>
+    
+    <h1>Inline-Block (no height, no width)</h1>
+    <div id="inlineblock"></div>
+    
+    <h1>None (invisible, doesn't take up space)</h1>
+    <div id="none"></div>
+    
+    <h1>Invisible (invisible, takes up space)</h1>
+    <div id="viz"></div>
+    
+    
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #container {
+            background: linear-gradient(to right, aqua,lime);
+            width: 400px;
+            height: 400px;
+            
+            position: relative;
+        }
+        #item1,#item2 {
+            width: 200px;
+            height: 200px;
+            font-size: 2em;
+            
+            position: absolute;
+        }
+        
+        #item1 {
+            background-color: skyblue;
+            z-index: 2;
+        }
+        
+        #item2 {
+            background-color: tomato;
+            top: 50px;
+            right: 83px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="item1">Item1</div>
+        <div id="item2">Item2</div>
+    </div>
+</body>
+</html>

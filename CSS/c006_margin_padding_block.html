@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Document</title>
+    
+    <style>
+        
+        div {
+/*            width: 200px;*/
+            height: 100px;
+            background-color: tomato;
+        }
+        
+        .block {
+            margin: 55px 159px 60px 100px;
+            padding: 10px 50px 13px 13px;
+        }
+        
+        #inline-block {
+            display: inline-block;
+            
+            margin: 10px 10px 10px 10px;
+            width: 50px 50px 50px 50px;
+            height: 10px 10px 10px 10px;
+        }
+        
+        #three {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+    
+</head>
+<body>
+
+<!--    
+    block has width, margin-right no effects, block has default width, margin-right decrese the width
+-->
+    
+    <div id="first" class='block'>block</div>
+    <div id="second"></div>
+<!--    margin-right has effects until its right elements get pushed to the next line-->
+    <h2>Inline-Block</h2>
+    <div id="inlineblock">inline-block</div>
+    <div id="three">three</div>
+    
+</body>
+</html>

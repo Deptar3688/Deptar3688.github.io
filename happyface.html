@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    
+    <style>
+        #background {
+            float: left;
+            height: 400px;
+            width: 400px;
+            background-color: lime;
+			
+			position: relative;
+        }
+        
+        #head {
+            position: absolute;
+            height: 350px;
+            width: 350px;
+            top: 30px;
+            left: 25px;
+            border-radius: 50%;
+            background-color: yellow;
+        }
+        
+        #eyel {
+            position: absolute;
+            background-color: white;
+            height: 120px;
+            width: 100px;
+            border-radius: 45%;
+            top: 50px;
+            left: 80px;
+        }
+        
+        #eyer {
+            position: absolute;
+            background-color: white;
+            height: 120px;
+            width: 100px;
+            border-radius: 45%;
+            top: 50px;
+            left: 190px;
+        }
+        
+        #pupil {
+            position: absolute;
+            background-color: black;
+            height: 70px;
+            width: 60px;
+            border-radius: 45%;
+            top: 15px;
+            left: 5px;
+        }
+        
+        #smile {
+            position: absolute;
+            border: solid;
+            border-color: transparent;
+            border-bottom-color: black;
+            border-radius: 20%;
+            border-width: 15px;
+            height: 300px;
+            width: 250px;
+            top: -55px;
+            left: 35px;
+            border-radius: 50%;
+        }
+        
+        #dimpl {
+            position: absolute;
+            background-color: black;
+            height: 30px;
+            width: 15px;
+            border-radius: 40%;
+            top: 210px;
+            left: 73px;
+            transform: rotate(45deg)
+        }
+        
+        #dimpr {
+            position: absolute;
+            background-color: black;
+            height: 30px;
+            width: 15px;
+            border-radius: 40%;
+            top: 210px;
+            left: 262px;
+            transform: rotate(-45deg)
+        }
+        
+        #box {
+            position: absolute;
+            border: solid black;
+            left: 460px;
+            top: 50px;
+            right: 50px;
+            width: 300px;
+            height: 300px;
+            border-width: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 30px 10px black;
+            background-color: #b20000;
+        }
+        
+        #eyebl {
+            position: absolute;
+            background-color: black;
+            height: 90px;
+            width: 25px;
+            border-radius: 30px;
+            top: 50px;
+            left: 95px;
+            transform: rotate(-50deg);
+        }
+        
+        #eyebl2 {
+            position: absolute;
+            background-color: black;
+            height: 35px;
+            width: 25px;
+            border-radius: 30px;
+            top: 57px;
+            left: 62px;
+            transform: rotate(60deg);
+        }
+        
+        #eyebr {
+            position: absolute;
+            background-color: black;
+            height: 90px;
+            width: 25px;
+            border-radius: 30px;
+            top: 50px;
+            left: 195px;
+            transform: rotate(50deg);
+        }
+        
+        #eyebr2 {
+            position: absolute;
+            background-color: black;
+            height: 35px;
+            width: 25px;
+            border-radius: 30px;
+            margin-top: 59px;
+            margin-left: 226px;
+            transform: rotate(-60deg);
+        }
+        
+        #il {
+            position: absolute;
+            background-color: black;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            
+            margin-top: 120px;
+            margin-left: 80px;
+        }
+        
+        #ir {
+            position: absolute;
+            background-color: black;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            
+            margin-top: 120px;
+            margin-left: 190px;
+        }
+        
+        #mouth {
+            position: absolute;
+            border: solid;
+            margin-top: 200px;
+            margin-left: 80px;
+            width: 160px;
+            height: 70px;
+            transform: rotate(-20deg);
+            border-width: 15px;
+            border-top: none;
+            border-bottom-left-radius: 90px 80px; border-bottom-right-radius: 90px 80px;
+        }
+        
+        #dimp {
+            position: absolute;
+            border-bottom: solid;
+            border-top: none;
+            border-width: 10px;
+            margin-top: 165px;
+            margin-left: 220px;
+            width: 36px;
+            height: 0px;
+            transform: rotate(-15deg);
+            border-radius: 20%;
+        }
+        
+        h1 {
+            position: absolute;
+            margin-top: 400px;
+            margin-left: 460px;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="bigbox">
+        <div id="background">
+            <div id="head">
+                <div id="eyel">
+                    <div id="pupil"></div>
+                </div>
+                <div id="eyer">
+                    <div id="pupil"></div>
+                </div>
+                <div id="smile"></div>
+                <div id="dimpl"></div>
+                <div id="dimpr"></div>
+            </div>
+        </div>
+
+        <div id="background2">
+            <div id="box">
+                <div id="eyebl"></div>
+                <div id="eyebl2"></div>
+                <div id="eyebr"></div>
+                <div id="eyebr2"></div>
+                <div id="il"></div>
+                <div id="ir"></div>
+                <div id="mouth"></div>
+                <div id="dimp"></div>
+            </div>
+            <h1>have a nice day</h1>
+        </div>
+    </div>
+</body>
+</html>

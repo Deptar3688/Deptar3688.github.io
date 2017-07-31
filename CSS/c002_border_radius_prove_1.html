@@ -11,6 +11,8 @@
         height: 300px;
         
         border-top-left-radius: 80px;
+        
+        border-bottom-right-radius: 100px 80px;
     }
     
     #circle {
@@ -19,8 +21,18 @@
         height: 160px;
         border-radius: 50%;
         position: absolute;
-        top: 20px;
-        left: 20px;
+        top: 8px;
+        left: 8px;
+    }
+    
+    #ellipse {
+        border: solid 5px;
+        width: 200px;
+        height: 160px;
+        border-radius: 100px/80px;
+        position: absolute;
+        top: 148px;
+        left: 108px;
     }
         
 </style>
@@ -29,6 +41,7 @@
     <div id="container">
         
         <div id="circle"></div>
+        <div id="ellipse"></div>
         
     </div>
 </body>

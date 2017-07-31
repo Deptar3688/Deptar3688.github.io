@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+		* {
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+		}
+		
+		body {
+			padding: 20px;
+		}
+		
+		fieldset {
+			width: 500px;
+			padding: 10px;
+		}
+		
+		ul {
+			list-style: none;
+		}
+		
+		li {
+			padding: 5px;
+		}
+		
+		input {
+			width: 300px;
+		}
+		
+		.label {
+			width: 122px;
+			display: inline-block;
+		}
+		
+		#city {
+			width: 296px;
+			background-color: #f8f7f7;
+			border-radius: 5px;
+			padding-left: 5px;
+		}
+		
+		.radio {
+			width: 12px;
+			;
+			margin-left: 20px;
+		}
+		
+		.radio:nth-child(2) {
+			margin-left: 0;
+		}
+		
+		#com {
+			margin-top: 5px;
+			width: 500px;
+			height: 100px;
+		}
+		
+		#submit {
+			color: white;
+			background-color: #3758a3;
+			height: 40px;
+			width: 120px;
+			border-radius: 15px;
+			/*			margin-left: 410px;*/
+		}
+		#submit_div {
+			text-align: right;
+		}
+	</style>
+</head>
+
+<body>
+	<form action="#">
+		<fieldset>
+			<legend>Payment information</legend>
+
+			<ul>
+				<li>
+					<label class='label' for="">Name</label>
+					<input type="text" placeholder="Please enter your full name">
+				</li>
+
+				<li>
+					<label class='label' for="">Email</label>
+					<input type="text" placeholder="Please enter your email">
+				</li>
+
+				<li>
+					<label for="" class="label">Phone</label>
+					<input type="text" id="phone" placeholder="Please enter your phone number">
+				</li>
+
+				<li>
+					<label for="" class="label">City</label>
+					<input list="stuff" id="city">
+					<datalist id="stuff">
+						<option value="Toronto">Toronto</option>
+						<option value="Hamilton">Hamilton</option>
+						<option value="London">London</option>
+						<option value="Burlington">Burlington</option>
+					</datalist>
+				</li>
+
+				<li>
+					<label for="" class="label">Payment options:</label>
+					<input type="radio" class="radio" id='first_radio'> Mastercard
+					<input type="radio" class="radio"> Visa
+					<input type="radio" class="radio"> Paypal
+				</li>
+			</ul>
+		</fieldset>
+
+		<textarea name="" id="com" placeholder="Please leave your comments"></textarea>
+		<br>
+		<div id='submit_div'>
+			<input type="submit" id="submit">
+		</div>
+	</form>
+</body>
+
+</html>

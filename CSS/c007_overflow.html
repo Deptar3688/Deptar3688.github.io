@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        img {
+/*            height: 200px;*/
+        }
+        #container {
+            border: double blue;
+            height: 150px;
+            width: 400px;
+            
+            overflow: hidden;
+            overflow: visible;
+            overflow: scroll;
+            overflow: auto;
+        }
+        
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: lime;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <img src="http://farm3.static.flickr.com/2506/5780591714_880b6de590.jpg" alt="">
+    </div>
+    
+    <ul>
+        <li>be default, overflow is visible</li>
+        <li>overflow scroll always show scrollbar</li>
+        <li>overflow auto show scrollbar when neccessary</li>
+    </ul>
+</body>
+</html>

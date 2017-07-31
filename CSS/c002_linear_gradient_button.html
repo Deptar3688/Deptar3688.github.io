@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            
+            background: linear-gradient(to top,blue,red,yellow);
+            border-radius: 50px;
+            
+            animation-name: changecolor;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+    
+        div:hover {
+            cursor: pointer;
+        }
+        
+        div:active {
+            background: linear-gradient(to bottom,blue,red,yellow);
+        }
+        
+        @keyframes changecolor {
+            0% {
+                background: linear-gradient(to top, red, purple)
+            }
+        }
+    </style>
+    
+</head>
+<body>
+    <div></div>
+</body>
+</html>
