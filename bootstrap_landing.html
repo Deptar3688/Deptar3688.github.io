@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>LandingPage - Start Bootstrap Theme</title>
+</head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            height: 2500px;
+        }
+        
+        .fixed {
+            background-color: #f8f8f8;
+            border-color: #e7e7e7;
+            font-family: sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            width: 100%;
+            height: 50px;
+            position: fixed;
+            border-bottom: solid 1px #c6c6c6;
+            z-index: 1;
+        }
+		.fixed ul {
+			width: 400px;
+			float: right;
+		}
+        
+        ul {
+            list-style: none;
+        }
+        
+        #fixed,#start {
+            float: right;
+            display: inline-block;
+        }
+        
+        #fixed:nth-child(2) {
+            margin-right: 13%;
+        }
+        
+        #start {
+            float: none;
+            margin-left: 13%;
+			width: 200px;
+        }
+        
+        a {
+            text-decoration: none;    
+            position: relative;
+        }
+        
+        #fixeda {
+            text-decoration: none;    
+            position: relative;
+            display: block;
+            line-height: 20px;
+            padding: 15px 15px;
+            color: #777;
+        }
+        
+        #home {
+            background: url(/Media/Img/intro-bg.jpg) no-repeat center center;
+            background-size: cover;
+            padding-top: 50px;
+            
+            text-align: center;
+            color: #f8f8f8;
+            
+            padding-top: 20%;
+            padding-bottom: 20%;
+
+        }
+        
+        #landing {
+            text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+            font-size: 5em;
+            font-weight: 700;
+        }
+        
+        #intro {
+            text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+            font-size: 24px;
+            font-weight: 700;
+        }
+        
+        #hrintro {
+            width: 400px;
+            border-top: 1px solid #f8f8f8;
+            border-bottom: 1px solid rgba(0,0,0,0.2);
+            margin: auto;
+        }
+        
+        .button {
+            display: inline-block;
+        }
+        
+        #but {
+            display: inline-block;
+            padding: 10px 16px;
+            font-size: 18px;
+            line-height: 1.3333333;
+            border-radius: 6px;
+            color: #333;
+            background-color: #fff;
+            border-color: #ccc;
+            
+            margin-left: 5px;
+            text-align: center;
+        }
+        
+        #contenta {
+            padding: 50px 15%;
+            background-color: #f8f8f8;
+            height: 14%;
+            
+            font-family: sans-serif;
+			border: solid red;
+        }
+        
+        #hra {
+            float: left;
+            width: 200px;
+            border-top: 3px solid #e7e7e7;
+        }
+        
+        #ipad {
+            display: block;
+            width: 455px;
+            height: 352px;
+            float: right;
+        }
+        
+        #h2conta {
+            margin-top: 20px;
+            margin-bottom: 30px;
+            font-size: 30px;
+            width: 400px;
+        }
+        
+        #pconta {
+            width: 40%;
+            font-size: 18px;
+            font-weight: 400;
+            color: #333;
+            line-height: 1.4;
+        }
+        
+        
+        
+        #contentb {
+            padding: 50px 0;
+            background-color: #fff;
+            padding-right: 15%;
+            padding-left: 15%;
+            height: 14%;
+            border-top: 1px solid #e7e7e7;
+            border-bottom: 1px solid #e7e7e7;
+            
+            font-family: sans-serif;
+        }
+        
+        #hrb {
+            width: 200px;
+            border-top: 3px solid #e7e7e7;
+            float: left;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        
+        #dog {    
+            display: block;
+            width: 455px;
+            height: 380px;
+            float: left;
+            padding-right: 15%;
+        }
+        
+        #h2contb {
+            float: left;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            font-size: 30px;
+            width: 400px;
+            
+        }
+        
+        #pcontb {
+            float: left;
+            width: 40%;
+            font-size: 18px;
+            font-weight: 400;
+            color: #333;
+            line-height: 1.4;
+        }
+        
+        
+        
+        
+        #contentc {
+            padding: 50px 0;
+            background-color: #f8f8f8;
+            padding-right: 15%;
+            padding-left: 15%;
+            height: 12%;
+            
+            font-family: sans-serif;
+        }
+        
+        #hrc {
+            float: left;
+            width: 200px;
+            border-top: 3px solid #e7e7e7;
+        }
+        
+        #phone {
+            display: block;
+            width: 455px;
+            height: 300px;
+            float: right;
+        }
+        
+        #h2contc {
+            margin-top: 20px;
+            margin-bottom: 30px;
+            font-size: 30px;
+            width: 350px;
+        }
+        
+        #pcontc {
+            width: 40%;
+            font-size: 18px;
+            font-weight: 400;
+            color: #333;
+            line-height: 1.4;
+        }
+        
+        #banner {
+            background: url(Media/Img/banner-bg.jpg) no-repeat center center;
+            width: 100%;
+            height: 10%;
+            text-align: center;
+        }
+        
+        #h2ban {
+            color: #fff;
+            text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+            font-size: 3em;
+            display: inline-block;
+            padding-right: 15%;
+        }
+        
+        #banbuttons {
+            display: inline-block;
+            padding-top: 8%;
+        }
+        
+        footer {
+            padding-left: 15%;
+        }
+        
+        #ulfoot {
+            list-style:disc
+        }
+        
+        .lifoot {
+            display: inline-block;
+/*            padding: 12px;*/
+			padding-left: 12px;
+        }
+		
+		.lifoot:before {
+			content: '\00B7';
+			padding-right: 15px;
+		}
+        
+        .lifoot:first-child {
+            list-style: none;
+        }
+		.lifoot:first-child:before {
+			content:'';
+		}
+        
+        #pfoot {
+            color: #777;
+            font-size: small;
+        }
+        
+    </style>
+<body>
+    <nav class="fixed">
+        <h3 id="start"><a id="fixeda" href="">Start Bootstrap</a></h3>
+        <ul>
+            <li id="fixed"><a id="fixeda" href="">Contact</a></li>
+            <li id="fixed"><a id="fixeda" href="">Services</a></li>
+            <li id="fixed"><a id="fixeda" href="">About</a></li>
+        </ul>
+    </nav>
+    <i class="fa fa-twitter" aria-hidden="true"></i>
+    <div id="home">
+        <h1 id="landing">Landing Page</h1>
+        <br>
+        <h3 id="intro">A Template by Start Bootstrap</h3>
+        <br>
+        <hr id="hrintro">
+        <br>
+        
+        <ul id="intbuttons">
+            <li class="button"><a id="but" href="https://twitter.com/SBootstrap"><i class="fa fa-twitter" aria-hidden="true"> TWITTER</i></a></li>
+            
+            <li class="button"><a id="but" href="https://github.com/BlackrockDigital/startbootstrap"><i class="fa fa-github" aria-hidden="true"> GITHUB</i></a></li>
+            
+            <li class="button"><a id="but" href="#"><i class="fa fa-linkedin" aria-hidden="true"> LINKEDIN</i></a></li>
+        </ul>
+    </div>
+    
+    <div id="contenta">
+        <img id="ipad" src="/Media/Img/ipad.png" alt="">
+        <br>
+        <hr id="hra">
+        <h2 id="h2conta">Death to the Stock Photo: Special Thanks</h2>
+        <p id="pconta">A special thanks to <a href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a> for providing the photographs that you see in this template. Visit their website to become a member.</p>
+    </div>
+    
+    <div id="contentb">
+        <img id="dog" src="/Media/Img/dog.png" alt="">
+        <br>
+        <hr id="hrb">
+        <br>
+        <h2 id="h2contb">3D Device Mockups by PSDCovers</h2>
+        <p id="pcontb">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
+    </div>
+    
+    <div id="contentc">
+        <img id="phone" src="/Media/Img/phones.png" alt="">
+        <br>
+        <hr id="hrc">
+        <h2 id="h2contc">Google Web Fonts and Font Awesome Icons</h2>
+        <p id="pcontc">This template features the 'Lato' font, part of the <a href="https://fonts.google.com/">Google Web Font library</a>, as well as <a href="http://fontawesome.io/">icons from Font Awesome.</a></p>
+    </div>
+    
+    <div id="banner">
+       <h2 id="h2ban">Connect to Start Bootstrap:</h2>
+        <ul id="banbuttons">
+            <li class="button"><a id="but" href="https://twitter.com/SBootstrap"><i class="fa fa-twitter" aria-hidden="true"> TWITTER</i></a></li>
+            
+            <li class="button"><a id="but" href="https://github.com/BlackrockDigital/startbootstrap"><i class="fa fa-github" aria-hidden="true"> GITHUB</i></a></li>
+            
+            <li class="button"><a id="but" href="#"><i class="fa fa-linkedin" aria-hidden="true"> LINKEDIN</i></a></li>
+        </ul>
+    </div>
+    <footer>
+        <ul id="ulfoot">
+            <li class="lifoot"><a href="">Home</a></li>
+            <li class="lifoot"><a href="">About</a></li>
+            <li class="lifoot"><a href="">Services</a></li>
+            <li class="lifoot"><a href="">Contact</a></li>
+        </ul>
+        <br>
+        <p id="pfoot">Copyright © Your Company 2014. All Rights Reserved</p>
+    </footer>
+</body>
+</html>

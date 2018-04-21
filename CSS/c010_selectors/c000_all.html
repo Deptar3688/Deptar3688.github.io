@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #firstitem {
+            background-color: purple;
+        }
+        
+        li[data="tennis"] {
+            background-color: red;
+        }
+        
+        .listitem {
+            background-color: blue;
+        }
+        
+        ul li {
+            background-color: pink !important;
+        }
+        
+        ul li {
+            background-color: yellow !important;
+        }
+        
+        ul>li {
+            background-color: skyblue!important;
+        }
+        
+        li {
+            background-color: lime !important;
+            font-size: 3em;
+        }
+        
+        li:first-child {
+            background-color: black;
+        }
+        
+    </style>
+</head>
+<body>
+  <h2>CSS specificity order</h2>
+   <h3>class > tag</h3>
+   <h3>inline style > embedded style</h3>
+   <h3>!important > others</h3>
+   <h3>If same specificty, long path > short pass</h3>
+   <h3>If same last > first</h3>
+    <ul>
+        <li id="firstitem" class="listitem" data="tennis" style="background-color: green">Tennis</li>
+        <li>Soccer</li>
+        <li>Jogging</li>
+    </ul>
+</body>
+</html>

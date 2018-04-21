@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .column {
+            border: solid 1px blue;
+            height: 100px;
+            box-sizing: border-box;
+        }
+        
+        @media screen and (min-width:768px) {
+            .column {
+                width: 50%;
+                float: left;
+            }
+        }
+        
+        @media screen and (min-width:992px) {
+            .column {
+                width: 25%;
+                float: left;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="column col-sm-6 col-md-3"></div>
+    <div class="column col-sm-6 col-md-3"></div>
+    <div class="column col-sm-6 col-md-3"></div>
+    <div class="column col-sm-6 col-md-3"></div>
+    
+</body>
+</html>
